@@ -1,0 +1,76 @@
+{
+  "name": "lin-stephanie.github.io",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "license": "GPL-3.0",
+  "author": "Stephanie Lin",
+  "description": "Portfolio 3D Homepage for Stephanie Lin",
+  "repository": "https://github.com/lin-stephanie/lin-stephanie.github.io",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "format": "prettier . --check --ignore-unknown",
+    "format:write": "prettier . --write --ignore-unknown --cache",
+    "lint": "eslint . --report-unused-disable-directives --max-warnings 0 --cache",
+    "lint:fix": "eslint . --fix --cache",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.0.8",
+    "@react-three/fiber": "^9.1.2",
+    "leva": "^0.10.0",
+    "maath": "^0.10.7",
+    "normalize.css": "^8.0.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hot-toast": "^2.5.2",
+    "styled-components": "^6.1.18",
+    "three": "^0.176.0",
+    "wouter": "^3.7.0",
+    "zustand": "^5.0.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@eslint/js": "^9.27.0",
+    "@types/node": "^22.15.18",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "@types/three": "^0.176.0",
+    "@vitejs/plugin-react": "^4.4.1",
+    "babel-plugin-styled-components": "^2.1.4",
+    "eslint": "^9.27.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.1.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0",
+    "prettier": "^3.5.3",
+    "three-stdlib": "^2.36.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.1",
+    "vite": "^6.3.5"
+  },
+  "lint-staged": {
+    "*": [
+      "eslint"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0"
+  }
+}

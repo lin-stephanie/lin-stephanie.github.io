@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Rubik Wet Paint';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src:
+    local('Rubik Wet Paint Regular'),
+    local('RubikWetPaint-Regular'),
+    url('RubikWetPaint-Regular.woff2') format('woff2');
+}

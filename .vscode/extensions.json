@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    // https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets
+    "dsznajder.es7-react-js-snippets",
+
+    // https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+    "EditorConfig.EditorConfig",
+
+    // https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+    "esbenp.prettier-vscode",
+
+    // https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components
+    "styled-components.vscode-styled-components"
+  ]
+  /* "unwantedRecommendations": [
+  ] */
+}

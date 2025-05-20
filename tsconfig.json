@@ -1,0 +1,8 @@
+{
+  // https://vite.new/react-ts
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
