@@ -17,7 +17,7 @@ export const debugLog = (tag: string, ...args: unknown[]) => {
 /**
  * Shows a toast containing the provided content.
  */
-export const showToast = (content: ReactElement | string, duration = 10000) => {
+export const showToast = (content: ReactElement | string, duration = 8000) => {
   const id = 'only'
 
   if (typeof content === 'string' && content.trim().length === 0) {

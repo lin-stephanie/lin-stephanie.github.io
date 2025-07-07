@@ -133,7 +133,7 @@ const StyledToast = styled.div<{ $visible: boolean; $isMobile: boolean }>`
         `
       : css`
           width: 20rem;
-          background: #7f1d1d80;
+          background: #7f1d1d50;
           animation: ${$visible ? desktopEnterAnimation : desktopExitAnimation}
             300ms ease-in-out forwards;
         `}

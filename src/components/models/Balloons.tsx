@@ -61,7 +61,7 @@ const Balloon = ({ mode, ...props }: BalloonProps) => {
         : mode === 'light'
           ? 'Bright and shiny — welcome to light mode! 🌕'
           : 'Things just got a little moodier – hello, dark mode! 🌑'
-    showToast(text, 5000)
+    showToast(text, 3000)
 
     if (!triggers.filter((t) => t.name === 'mode')[0].triggered)
       setTriggerStatus('mode')

@@ -77,7 +77,7 @@ export default function Scene({ isMobile }: { isMobile: boolean }) {
       <directionalLight
         castShadow
         position={configs.dlPosition}
-        intensity={isLight ? 1.8 : 1.5}
+        intensity={isLight ? 2.0 : 1.7}
       >
         {debug && (
           <Helper

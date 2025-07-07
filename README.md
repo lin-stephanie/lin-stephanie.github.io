@@ -4,7 +4,7 @@ This is my personal homepage with a dash of 3D magic.
 
 It’s built with [React Three Fiber](https://github.com/pmndrs/react-three-fiber) and a bunch of my own ideas.
 
-If you like it, drop a star to say hi! ⭐️
+If you’d like, drop a star to say hi! ⭐️
 
 Either way, hope you find it kinda fun: [lin-stephanie.github.io](https://lin-stephanie.github.io)
 
@@ -19,4 +19,4 @@ Thanks to these creators for sharing 3D models:
 
 ## License
 
-[GPL-3.0](https://github.com/lin-stephanie/astro-antfustyle-theme/blob/main/LICENSE) © 2024-PRESENT [Stephanie Lin](https://github.com/lin-stephanie)
+[GPL-3.0](https://github.com/lin-stephanie/astro-antfustyle-theme/blob/main/LICENSE) © 2025-PRESENT [Stephanie Lin](https://github.com/lin-stephanie)
